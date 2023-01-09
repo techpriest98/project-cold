@@ -8,9 +8,13 @@ export class EstateOutside extends Phaser.Scene {
   preload() {
       this.load.image('tiles', 'assets/tiles/estate-outside-tilemap.png');
       this.load.tilemapTiledJSON('estate-outside-map', 'assets/tiles/estate-outside-map.json');
+      this.load.image('player', 'assets/player/charackter.png');
+
   }
 
   create() {
+      const player = this.add.image(352, 380, 'player');
+      player.setDepth(10);
       const map = this.make.tilemap({key: 'estate-outside-map'});
       const tileset = map.addTilesetImage('estate-outside-tileset', 'tiles');
 
