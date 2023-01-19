@@ -1,0 +1,268 @@
+{
+    "frames": [
+        {
+            "filename": "traveler-idle-back-0",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-right-3",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 64,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-idle-front-0",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 128,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-idle-left-0",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 192,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-idle-right-0",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 0,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-back-0",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 64,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-back-1",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 128,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-back-2",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 192,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-back-3",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 0,
+                "y": 256
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-front-0",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 64,
+                "y": 256
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-front-1",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 128,
+                "y": 256
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-front-2",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 192,
+                "y": 256
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-front-3",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 0,
+                "y": 384
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-left-0",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 64,
+                "y": 384
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-left-1",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 128,
+                "y": 384
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-left-2",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 192,
+                "y": 384
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-left-3",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 0,
+                "y": 512
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-right-0",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 64,
+                "y": 512
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-right-1",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 128,
+                "y": 512
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "traveler-walk-right-2",
+            "frame": {
+                "w": 64,
+                "h": 128,
+                "x": 192,
+                "y": 512
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}
