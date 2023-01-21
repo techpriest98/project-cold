@@ -19,13 +19,13 @@ export class EstateOutside extends Phaser.Scene {
 
     create() {
         const map = this.make.tilemap({key: 'estate-outside-map'});
-        const tileset = map.addTilesetImage('estate-outside-tileset', 'tiles');
+        const tileset = map.addTilesetImage('estate-outside', 'tiles');
 
         const groundLayer = map.createLayer('Ground', tileset);
         groundLayer.setDepth(1);
 
-        const secondariesLayer = map.createLayer('Secondaries', tileset);
-        secondariesLayer.setDepth(2);
+        const groundSecLayer = map.createLayer('GroundSec', tileset);
+        groundSecLayer.setDepth(2);
 
         const collidesLayer = map.createLayer('Collides', tileset);
         collidesLayer.setDepth(2);
@@ -39,7 +39,11 @@ export class EstateOutside extends Phaser.Scene {
 
         this.player = this.physics.add.sprite(64, 128, 'player', 'traveler-idle-front-0');
         this.player.body.setSize(48, 48);
+        this.player.setPosition(864, 1700);
         this.player.setDepth(4);
+
+        const overheadSecLayer = map.createLayer('OverheadSec', tileset);
+        overheadSecLayer.setDepth(5);
 
         this.anims.create({key: 'traveler-idle-front', frames: [{key: 'player', frame: 'traveler-idle-front-0'}]});
 
@@ -86,7 +90,7 @@ export class EstateOutside extends Phaser.Scene {
         if (!this.cursors || !this.player) {
             return
         }
-        this.player.body.offset.y = 64;
+        this.player.body.offset.y = 70;
 
         if (this.cursors.left?.isDown) {
             this.player.anims.play('traveler-walk-left', true);
