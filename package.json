@@ -1,0 +1,15 @@
+{
+  "name": "project-frost",
+  "version": "1.1.0",
+  "description": "Project Frost",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techpriest98/project-cold.git"
+  },
+  "author": "Andrii Yeromenko",
+  "license": "MIT"
+}
