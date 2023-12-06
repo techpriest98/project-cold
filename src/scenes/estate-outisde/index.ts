@@ -1,1 +1,0 @@
-export {EstateOutside} from './EstateOutside';
