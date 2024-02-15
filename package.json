@@ -1,6 +1,6 @@
 {
   "name": "project-frost",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Project Frost",
   "main": "dist/index.js",
   "scripts": {
